@@ -1,0 +1,9 @@
+*.swp
+coverage
+node_modules
+browser/tests.js
+tests.js
+
+npm-debug.log
+
+.DS_Store

@@ -1,0 +1,36 @@
+{
+  "name": "ows-common",
+  "version": "0.0.1",
+  "description": "Common utilities for OWS nodes.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "ows",
+    "utilities"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owstack/ows-common.git"
+  },
+  "dependencies": {
+    "bn.js": "=2.0.4",
+    "bs58": "=2.0.0",
+    "buffer-compare": "=1.0.0",
+    "elliptic": "=3.0.3",
+    "inherits": "=2.0.1",
+    "lodash": "=3.10.1"
+  },
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "ows-build": "git://github.com/owstack/ows-build",
+    "sinon": "^1.13.0"
+  },
+  "license": "MIT"
+}
