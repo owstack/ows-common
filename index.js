@@ -33,3 +33,4 @@ owsCommon.deps = {};
 owsCommon.deps.bnjs = require('bn.js');
 owsCommon.deps.bs58 = require('bs58');
 owsCommon.deps.Buffer = Buffer;
+owsCommon.deps._ = require('lodash');
