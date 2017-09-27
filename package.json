@@ -26,7 +26,7 @@
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
-    "ows-build": "git://github.com/owstack/ows-build",
+    "ows-build": "https://github.com/owstack/ows-build",
     "sinon": "^1.13.0"
   },
   "license": "MIT"
