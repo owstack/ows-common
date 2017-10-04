@@ -1,6 +1,8 @@
 OWS Common
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/owstack/ows-common.svg)](https://greenkeeper.io/)
+
 * [Crypto](docs/crypto.md)
 * [Encoding](docs/encoding.md)
 
