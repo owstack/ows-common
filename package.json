@@ -1,6 +1,6 @@
 {
   "name": "@owstack/ows-common",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Common utilities for OWS nodes.",
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,10 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
+    "@owstack/ows-build": "^0.0.3",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
-    "@owstack/ows-build": "^0.0.2",
     "sinon": "^1.13.0"
   },
   "license": "MIT"
