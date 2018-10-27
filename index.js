@@ -13,6 +13,7 @@ owsCommon.crypto.Random = require('./lib/crypto/random');
 
 // encoding
 owsCommon.encoding = {};
+owsCommon.encoding.Base32 = require('./lib/encoding/base32');
 owsCommon.encoding.Base58 = require('./lib/encoding/base58');
 owsCommon.encoding.Base58Check = require('./lib/encoding/base58check');
 owsCommon.encoding.BufferReader = require('./lib/encoding/bufferreader');
