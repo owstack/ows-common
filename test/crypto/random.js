@@ -1,7 +1,7 @@
 'use strict';
 
 var owsCommon = require('../..');
-var Random = owsCommon.crypto.Random;
+var Random = owsCommon.Random;
 
 describe('Random', function() {
 

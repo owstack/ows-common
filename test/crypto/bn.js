@@ -2,7 +2,7 @@
 
 var should = require('chai').should();
 var owsCommon = require('../..');
-var BN = owsCommon.crypto.BN;
+var BN = owsCommon.BN;
 
 describe('BN', function() {
   it('should create a bn', function() {

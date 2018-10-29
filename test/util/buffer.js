@@ -6,7 +6,7 @@ var expect = require('chai').expect;
 
 var owsCommon = require('../..');
 var errors = owsCommon.errors;
-var BufferUtil = owsCommon.util.buffer;
+var BufferUtil = owsCommon.buffer;
 
 describe('buffer utils', function() {
 

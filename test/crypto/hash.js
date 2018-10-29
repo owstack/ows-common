@@ -2,7 +2,7 @@
 
 require('chai').should();
 var owsCommon = require('../..');
-var Hash = owsCommon.crypto.Hash;
+var Hash = owsCommon.Hash;
 
 describe('Hash', function() {
   var buf = new Buffer([0, 1, 2, 3, 253, 254, 255]);

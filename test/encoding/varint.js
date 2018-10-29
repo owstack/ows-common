@@ -2,7 +2,7 @@
 
 var should = require('chai').should();
 var owsCommon = require('../..');
-var BN = owsCommon.crypto.BN;
+var BN = owsCommon.BN;
 var BufferReader = owsCommon.encoding.BufferReader;
 var BufferWriter = owsCommon.encoding.BufferWriter;
 var Varint = owsCommon.encoding.Varint;

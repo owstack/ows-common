@@ -5,11 +5,10 @@ var owsCommon = module.exports;
 // module information
 owsCommon.version = 'v' + require('./package.json').version;
 
-// crypto
-owsCommon.crypto = {};
-owsCommon.crypto.BN = require('./lib/crypto/bn');
-owsCommon.crypto.Hash = require('./lib/crypto/hash');
-owsCommon.crypto.Random = require('./lib/crypto/random');
+owsCommon.BN = require('./lib/bn');
+owsCommon.buffer = require('./lib/buffer');
+owsCommon.Hash = require('./lib/hash');
+owsCommon.Random = require('./lib/random');
 
 // encoding
 owsCommon.encoding = {};
@@ -22,7 +21,6 @@ owsCommon.encoding.Varint = require('./lib/encoding/varint');
 
 // utilities
 owsCommon.util = {};
-owsCommon.util.buffer = require('./lib/util/buffer');
 owsCommon.util.js = require('./lib/util/js');
 owsCommon.util.preconditions = require('./lib/util/preconditions');
 
@@ -34,4 +32,4 @@ owsCommon.deps = {};
 owsCommon.deps.bnjs = require('bn.js');
 owsCommon.deps.bs58 = require('bs58');
 owsCommon.deps.Buffer = Buffer;
-owsCommon.deps._ = require('lodash');
+owsCommon.deps.lodash = require('lodash');

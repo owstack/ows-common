@@ -3,9 +3,9 @@
 var should = require('chai').should();
 
 var owsCommon = require('../..');
-var $ = owsCommon.util.preconditions;
 var errors = owsCommon.errors;
-var Random = owsCommon.crypto.Random;
+var Random = owsCommon.Random;
+var $ = owsCommon.util.preconditions;
 
 describe('preconditions', function() {
 
