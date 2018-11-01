@@ -23,7 +23,7 @@ describe('base32', function() {
   });
 
   it('should fail to encode 35', function() {
-    (function() {Base32.encode([35]);}).should.throw('Invalid Argument: value 35');
+    (function() {Base32.encode([35]);}).should.throw('Invalid Argument: Non-base32, value 35');
   });
 
   it('should decode 0-31', function() {
@@ -38,12 +38,12 @@ describe('base32', function() {
 
   it('should fail decode abc', function() {
     var a=  'abc';
-    (function() {Base32.decode(a);}).should.throw('Invalid Argument: value b');
+    (function() {Base32.decode(a);}).should.throw('Invalid Argument: Non-base32, value b');
   });
 
   it('should fail decode Q', function() {
     var a=  'aqQ';
-    (function() {Base32.decode(a);}).should.throw('Invalid Argument: value Q');
+    (function() {Base32.decode(a);}).should.throw('Invalid Argument: Non-base32, value Q');
   });
 
 });
