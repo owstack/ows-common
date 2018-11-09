@@ -1,6 +1,6 @@
 {
   "name": "@owstack/ows-common",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Common utilities for OWS nodes.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
   "dependencies": {
     "bn.js": "=4.11.8",
     "bs58": "=4.0.1",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "scryptsy": "=2.0.0"
   },
   "devDependencies": {
     "@owstack/ows-build": "^0.0.12",
