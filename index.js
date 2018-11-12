@@ -1,12 +1,13 @@
 'use strict';
 
-var owsCommon = module.exports;
+var owsCommon = {};
 
 // module information
 owsCommon.version = 'v' + require('./package.json').version;
 
 owsCommon.BN = require('./lib/bn');
 owsCommon.buffer = require('./lib/buffer');
+owsCommon.Constants = require('./lib/constants');
 owsCommon.Hash = require('./lib/hash');
 owsCommon.Random = require('./lib/random');
 
@@ -33,3 +34,5 @@ owsCommon.deps.bnjs = require('bn.js');
 owsCommon.deps.bs58 = require('bs58');
 owsCommon.deps.Buffer = Buffer;
 owsCommon.deps.lodash = require('lodash');
+
+module.exports = owsCommon;
