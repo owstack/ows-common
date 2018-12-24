@@ -22,6 +22,7 @@ owsCommon.encoding.Varint = require('./lib/encoding/varint');
 
 // utilities
 owsCommon.util = {};
+owsCommon.util.Context = require('./lib/util/context');
 owsCommon.util.js = require('./lib/util/js');
 owsCommon.util.preconditions = require('./lib/util/preconditions');
 
