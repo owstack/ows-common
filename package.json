@@ -1,6 +1,6 @@
 {
   "name": "@owstack/ows-common",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Common utilities for OWS nodes.",
   "main": "index.js",
   "scripts": {
